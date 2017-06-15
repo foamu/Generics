@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+
+class Ship {
+	
+	}
+
+public class Generics {
+
+	public static void main(String[] args) {
+		
+		Ship ship1 = new Ship();
+		Ship ship3 = new Ship();
+		Ship ship4 = new Ship();
+		Ship ship2 = new Ship();
+		
+		ArrayList<Ship> ships = new ArrayList<>();
+		ships.add(ship1);
+		ships.add(ship2);
+		ships.add(ship3);
+		ships.add(ship4);
+		
+		System.out.println(ships);
+		
+		ArrayList<String> stringy = new ArrayList<>();
+		
+		stringy.add("DimSum");
+		stringy.add("Mcdonalds");
+		stringy.add("Foopy");
+		stringy.add("The Horror");
+		
+		String booba = stringy.get(2);
+		System.out.println(booba);
+
+	}
+
+}
